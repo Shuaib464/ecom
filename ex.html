@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <script src="cart.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" >
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="/image/obj1.png" class="logo" alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="indext.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a id="lg-bag" href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <div class="cart">
+        <h2 class="cart-title">Your cart</h2>
+        <div class="cart-content">
+            
+        </div>
+         <!-- total -->
+       <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price"></div>
+        <!-- buy button -->
+           <button type="button" class="btn-buy">Buy now</button>
+         <i class="fa-solid fa-rectangle-xmark" id="close-cart"></i>
+    </div>
+    </div>
+   
+    
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for NewsLetter</h4>
+            <p>Get E-mail updates avout our latest shop and <span>special offer.</span></p>
+        </div>
+        <div class="newsform">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <!-- <img src="image/logocop.png" alt=""> -->
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> RKGIT, Raj Nagar Extension, Ghaziabad</p>
+            <p><strong>Phone:</strong>(+91)9477962548, (+91)8127294589</p>
+            <p><strong>Hours:</strong>10:00-18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i> 
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="copyright">
+            <p>0 2022, RKGIT etc - HTML CSS Ecommerce Template</p>
+        </div>
+        
+    </footer>
+
+   <script src="scipt.js"></script>
+</body>
+</html>
